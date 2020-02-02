@@ -73,9 +73,8 @@ Shader "Custom/rimlighting" {
 
 			//计算光照的衰减
 			//衰减值
-			float3 worldPos = i.posWorld.xyz;
-			//计算漫反射
 			UNITY_LIGHT_ATTENUATION(atten, i, i.posWorld)
+			//计算漫反射
 			float3 diffuse = max(0, dot(normalDirection, lightDirection)) *  atten + UNITY_LIGHTMODEL_AMBIENT.xyz;
 			//自发光
 			//计算边缘强度

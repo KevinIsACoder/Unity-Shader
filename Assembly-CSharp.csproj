@@ -51,7 +51,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scenes\Practices\Chapter12\EdgeDetectShader.cs" />
+     <Compile Include="Assets\Scenes\Practices\Chapter12\PostEffectBase.cs" />
      <Compile Include="Assets\Scripts\c# study\BaseDataType.cs" />
+     <Compile Include="Assets\Scripts\c# study\SinMove.cs" />
      <Compile Include="Assets\Scripts\Chapter10\ProceduralTextureGeneration.cs" />
      <Compile Include="Assets\Scripts\Chapter12\Bloom.cs" />
      <Compile Include="Assets\Scripts\Chapter12\BrightnessSaturationAndContrast.cs" />
@@ -86,9 +89,11 @@
      <None Include="Assets\Shaders\Chapter6\Chapter6-BlinnPhongUseBuildInFunctions.shader" />
      <None Include="Assets\Shaders\Chapter10\Chapter10-GlassRefraction.shader" />
      <None Include="Assets\Shaders\Chapter6\Chapter6-SpecularPixelLevel.shader" />
+     <None Include="Assets\Scenes\Practices\Chapter11\FramAnim.shader" />
      <None Include="Assets\Shaders\Chapter9\Chapter9-AlphaBlendWithShadow.shader" />
      <None Include="Assets\Shaders\Chapter9\Chapter9-Shadow.shader" />
      <None Include="Assets\Shaders\Chapter9\Chapter9-AlphaTestWithShadow.shader" />
+     <None Include="Assets\Scenes\Practices\Chapter11\ScroolBackGroup.shader" />
      <None Include="Assets\Shaders\Chapter11\Chapter11-VertexAnimationWIthShadow.shader" />
      <None Include="Assets\Scenes\Practices\Chapter9\ForwardRenderer.shader" />
      <None Include="Assets\Shaders\Chapter12\Chapter12-GaussianBlur.shader" />
@@ -114,12 +119,14 @@
      <None Include="Assets\Shaders\Chapter11\Chapter11-Billboard.shader" />
      <None Include="Assets\Shaders\Chapter8\Chapter8-AlphaBlendZWrite.shader" />
      <None Include="Assets\Shaders\Chapter8\Chapter8-AlphaTest.shader" />
+     <None Include="Assets\Scenes\Practices\Chapter11\Water.shader" />
      <None Include="Assets\Shaders\Chapter12\Chapter12-Bloom.shader" />
      <None Include="Assets\Shaders\Chapter11\Chapter11-ImageSequenceAnimation.shader" />
      <None Include="Assets\Shaders\LZDShader\rimlighting.shader" />
      <None Include="Assets\Shaders\Chapter12\Chapter12-BrightnessSaturationAndContrast.shader" />
      <None Include="Assets\Shaders\Chapter13\Chapter13-EdgeDetectNormalAndDepth.shader" />
      <None Include="Assets\Shaders\Common\BumpedSpecular.shader" />
+     <None Include="Assets\Scenes\Practices\Chapter12\EdgeDetectShader.shader" />
      <None Include="Assets\Shaders\Chapter13\Chapter13-MotionBlurWithDepthTexture.shader" />
      <None Include="Assets\Shaders\Chapter12\Chapter12-EdgeDetection.shader" />
      <None Include="Assets\Shaders\Chapter7\Chapter7-MaskTexture.shader" />

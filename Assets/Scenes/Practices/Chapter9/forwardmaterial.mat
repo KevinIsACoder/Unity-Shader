@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: forwardmaterial
-  m_Shader: {fileID: 4800000, guid: 9446e62557d7ac84db803eab07d26cc0, type: 3}
+  m_Shader: {fileID: 4800000, guid: 0d5569bdad03b4445a25a4fc82f16fa9, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -32,6 +32,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _DetailNormalMap:
         m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseTex:
+        m_Texture: {fileID: 2800000, guid: 7ca2e80c7769e4720878ceb04320d2fa, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _EmissionMap:
@@ -66,6 +70,8 @@ Material:
     - _Mode: 0
     - _OcclusionStrength: 1
     - _Parallax: 0.02
+    - _RimIntensity: 2.2
+    - _RimPower: 14.1
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -74,3 +80,5 @@ Material:
     m_Colors:
     - _Color: {r: 0.8897059, g: 0.45139492, b: 0.45139492, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+    - _RimColor: {r: 0.065257356, g: 0.52205884, b: 0.42754808, a: 1}

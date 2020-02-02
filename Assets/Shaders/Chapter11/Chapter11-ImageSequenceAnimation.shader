@@ -3,12 +3,12 @@
 Shader "Unity Shaders Book/Chapter 11/Image Sequence Animation" {
 	Properties {
 		_Color ("Color Tint", Color) = (1, 1, 1, 1)
-		_MainTex ("Image Sequence", 2D) = "white" {}
+		_MainTex ("Image Sequence", 2D) = "white"{}
     	_HorizontalAmount ("Horizontal Amount", Float) = 4
     	_VerticalAmount ("Vertical Amount", Float) = 4
     	_Speed ("Speed", Range(1, 100)) = 30
 	}
-	SubShader {
+	SubShader {			
 		Tags {"Queue"="Transparent" "IgnoreProjector"="True" "RenderType"="Transparent"}
 		
 		Pass {
@@ -65,7 +65,6 @@ Shader "Unity Shaders Book/Chapter 11/Image Sequence Animation" {
 				
 				return c;
 			}
-			
 			ENDCG
 		}  
 	}
