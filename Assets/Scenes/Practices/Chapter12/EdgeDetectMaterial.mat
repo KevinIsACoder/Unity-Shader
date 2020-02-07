@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: EdgeDetectMaterial
-  m_Shader: {fileID: 4800000, guid: 2d71826e5e0824f90b80f4619d8410d9, type: 3}
+  m_Shader: {fileID: 4800000, guid: 944e107e9cf224078aad6e6829ed3b9c, type: 3}
   m_ShaderKeywords: ETC1_EXTERNAL_ALPHA
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -64,7 +64,7 @@ Material:
     - _Cutoff: 0.5
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
-    - _EdgeOnly: 0.5
+    - _EdgeOnly: 0.38
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1

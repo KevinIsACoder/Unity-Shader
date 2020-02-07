@@ -72,7 +72,7 @@ Shader "Unity Shaders Book/Chapter 13/Motion Blur With Depth Texture" {
 		
 		ENDCG
 		
-		Pass {      
+		Pass {
 			ZTest Always Cull Off ZWrite Off
 			    	
 			CGPROGRAM  
