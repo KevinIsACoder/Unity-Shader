@@ -9,11 +9,11 @@ public class SinMove : MonoBehaviour {
 
 	public GameObject cube;
 	[SerializeField]
-	private float frequency = 0.05f;
+	private float frequency = 20f;
 	[SerializeField]
-	private float magnitude = 10.0f;
+	private float magnitude = 2.0f;
 	[SerializeField]
-	private float speed = 2f;
+	private float speed = 10f;
 	private Vector3 originPos;
 	// Use this for initialization
 	void Start () {

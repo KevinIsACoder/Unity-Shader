@@ -50,7 +50,8 @@
 				v2f o;
 				float4 offset;
 				offset.yzw = float3(0.0, 0.0, 0.0);
-				offset.x = sin(_Frequency * _Time.y) * _Magnitude;
+				//offset.x = sin(_Frequency * _Time.y + v.vertex * _InvWaveLength) * _Magnitude;
+			    offset.x = sin(_Frequency * _Time.y + v.vertex.x * _InvWaveLength + v.vertex.y * _InvWaveLength + v.vertex.z * _InvWaveLength) * _Magnitude;
 				o.pos = UnityObjectToClipPos(v.vertex + offset);
 				o.uv = TRANSFORM_TEX(v.texcoord, _MainTex);
 				o.uv += float2(0.0, -_Speed * _Time.y);
